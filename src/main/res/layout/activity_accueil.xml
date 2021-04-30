@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccueilActivity">
+
+    <Button
+        android:id="@+id/buttonInscrption"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/inscription"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="106dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/txtAccueil"
+        android:layout_margin="120dp"
+        />
+
+    <Button
+        android:id="@+id/buttonListProf"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonInscrption"
+        android:layout_centerHorizontal="true"
+        android:text="@string/liste_des_professeur"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="283dp"
+        android:layout_margin="30dp"
+        />
+
+    <Button
+        android:id="@+id/buttonRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retour"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="501dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/txtAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:textSize="70dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

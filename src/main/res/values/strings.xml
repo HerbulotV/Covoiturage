@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Covoiturage</string>
+    <string name="inscription">Inscription</string>
+    <string name="tilteMain">Bienvenue</string>
+    <string name="nomEns">Nom :</string>
+    <string name="ville">Ville :</string>
+    <string name="prenom">Prénom :</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="title_activity_inscrie_">Inscrie_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="buttonAccueil">Accueil</string>
+    <string name="d_connexion">Déconnexion</string>
+    <string name="liste_des_professeur">Liste des professeurs</string>
+    <string name="retour">Retour</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="connexion">Connexion</string>
+    <string name="propos">à propos</string>
+</resources>

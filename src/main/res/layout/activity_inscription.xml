@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription">
+
+    <Button android:id="@+id/buttonAccueil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="@string/buttonAccueil"
+    android:layout_alignParentBottom="true"/>
+
+    <Button android:id="@+id/buttonDeco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d_connexion"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:id="@+id/titleInsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:text="@string/inscription"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/nomEns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomEns"
+        android:layout_margin="20dp"
+        android:layout_below="@id/titleInsc"/>
+
+    <EditText
+        android:id="@+id/edtNom"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomEns"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/prenomEns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/edtNom"
+        android:text="@string/prenom" />
+
+    <EditText
+        android:id="@+id/editTextPrenomEns"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prenomEns"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/ville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/editTextPrenomEns"
+        android:text="@string/ville" />
+
+    <EditText
+        android:id="@+id/editTextVilleEns"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ville"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/validerInsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextVilleEns"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/s_inscrire"
+        android:layout_alignParentEnd="true"
+        android:onClick="passe"/>
+
+</RelativeLayout>

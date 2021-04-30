@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connexion"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/psw"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tilteMain"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_action_id"/>
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_lock"/>
+
+    <Button
+        android:id="@+id/bpropos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/propos"
+        android:layout_below="@id/inscription"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/binscriptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inscription"
+        android:layout_below="@id/bpropos"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>
